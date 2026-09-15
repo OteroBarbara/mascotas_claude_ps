@@ -7,37 +7,37 @@ Necesito que generes un sitio web estático utilizando ÚNICAMENTE HTML5 semánt
 --- ESTRUCTURA Y ARCHIVOS ---
 1. Genera el código HTML con la arquitectura accesible.
 2. Genera el código CSS en un bloque aparte, que luego guardaré como "estilosIA.css".
-3. Las imágenes de las mascotas están ubicadas en la carpeta "../imagenes/" y los archivos PDF de información en la carpeta "../info/".
+3. Las imágenes de las mascotas están ubicadas en la carpeta "imagenes/" y los archivos PDF de información en la carpeta "info/".
 
 --- LISTADO DE MASCOTAS Y DATOS ESPECÍFICOS ---
 Debes usar de forma exacta los siguientes datos para armar las tarjetas del listado:
 
 Categoría: PERROS
 1. Kira (Perra):
-   - Imagen: "../imagenes/perra_kira.png" (o JPG según corresponda)
-   - PDF: "../info/ficha_perra_kira.pdf"
+   - Imagen: "imagenes/perra_kira.png" (o JPG según corresponda)
+   - PDF: "info/ficha_perra_kira.pdf"
    - Descripción corta: Perra dorada, alegre, dócil y sociable, de 3 años de edad.
 2. Lola (Perra):
-   - Imagen: "../imagenes/perra_lola.png"
-   - PDF: "../info/ficha_perra_lola.pdf"
+   - Imagen: "imagenes/perra_lola.png"
+   - PDF: "info/ficha_perra_lola.pdf"
    - Descripción corta: Perrita joven blanca y canela, vivaz, juguetona y enérgica, de 1 año de edad.
 3. Bruno (Perro):
-   - Imagen: "../imagenes/perro_bruno.png"
-   - PDF: "../info/ficha_perro_bruno.pdf"
+   - Imagen: "imagenes/perro_bruno.png"
+   - PDF: "info/ficha_perro_bruno.pdf"
    - Descripción corta: Labrador negro adulto, equilibrado, dócil y muy compañero, de 6 años de edad.
 
 Categoría: GATOS
 1. Nala (Gata):
-   - Imagen: "../imagenes/gata_nala.png"
-   - PDF: "../info/ficha_gata_nala.pdf"
+   - Imagen: "imagenes/gata_nala.png"
+   - PDF: "info/ficha_gata_nala.pdf"
    - Descripción corta: Gata blanco y negro de carácter sereno, tranquila y cariñosa, de 4 años de edad.
 2. Milo (Gato):
-   - Imagen: "../imagenes/gato_milo.png"
-   - PDF: "../info/ficha_gato_milo.pdf"
+   - Imagen: "imagenes/gato_milo.png"
+   - PDF: "info/ficha_gato_milo.pdf"
    - Descripción corta: Gato atigrado naranja, curioso, activo y muy sociable, de 2 años de edad.
 3. Simón (Gato):
-   - Imagen: "../imagenes/gato_simon.png"
-   - PDF: "../info/ficha_gato_simon.pdf"
+   - Imagen: "imagenes/gato_simon.png"
+   - PDF: "info/ficha_gato_simon.pdf"
    - Descripción corta: Gato gris de pelo largo, manso, afectuoso y de energía baja, de 7 años de edad.
 
 --- REQUERIMIENTOS DEL ENUNCIADO ---
@@ -49,7 +49,7 @@ Categoría: GATOS
    - Permite seleccionar la categoría (Perros / Gatos / Ver Todos) usando <input type="radio"> ocultos combinados con CSS (selectores :checked).
 3. Estilos de las tarjetas e imágenes:
    - Todas las fotos de las mascotas deben tener un marco uniforme con borde y relleno especificado mediante CSS. Las imágenes deben ser contain.
-   - Incluye el enlace "+ Info" apuntando al PDF correspondiente en la carpeta "../info/".
+   - Incluye el enlace "+ Info" apuntando al PDF correspondiente en la carpeta "info/".
 4. Diseños y maquetación:
    - Completamente responsivo (Media Queries).
 
